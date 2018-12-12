@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>雪花落下</title>
+	<link rel="stylesheet" type="text/css" href="https://weilyn.github.io/wei/dmaku.css">
+
+<script type="text/javascript" src="https://weilyn.github.io/wei/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="https://weilyn.github.io/wei/dmaku.js"></script>
+</head>
+
+<body><img src="images/white-snowflake.png" style="display: none" id="lis_flake"><img src="https://weilyn.github.io/wei/white-snowflake.png" style="display: none" id="lis_flake">
+
+
+	<canvas width="1440" height="798" class="snow"></canvas>
+	<canvas width="981" height="1744" class="flake"></canvas>	
+	<script type="text/javascript">
+	$(document).ready(function(){
+
+
+
+		$("canvas.snow").let_it_snow({
+			windPower: 3,
+			speed: 1,
+			count: 250,
+			size: 0
+		});
+
+		$("canvas.flake").let_it_snow({
+			windPower: -3,
+			speed: 1,
+			count: 20,
+			size: 5,
+			image: "https://weilyn.github.io/wei/white-snowflake.png"
+		});
+
+	});
+	</script>
+
+</body></html>
