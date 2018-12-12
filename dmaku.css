@@ -8,7 +8,7 @@ body{
 	background:-webkit-radial-gradient(center, ellipse cover, #090b44 0%,#00001c 100%); /* Chrome10+,Safari5.1+ */
 	background:-o-radial-gradient(center, ellipse cover, #090b44 0%,#00001c 100%); /* Opera 12+ */
 	background:-ms-radial-gradient(center, ellipse cover, #090b44 0%,#00001c 100%); /* IE10+ */
-	background:radial-gradient(ellipse at center, #090b44 0%,#00001c 100%); /* W3C */
+
 	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#090b44', endColorstr='#00001c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	padding:0;
 	text-align:center;
